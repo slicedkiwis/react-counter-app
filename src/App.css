@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root{
+    background-color: rgba(255, 192, 203, 0.26);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.positive{
+    color: rgba(0, 128, 0, 0.548);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.negative{
+    color: rgba(255, 0, 0, 0.568);
 }
+.card{
 
-.App-link {
-  color: #61dafb;
+    font-size: 4rem;
+    background-color: rgba(255, 255, 255, 0.164);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1rem 0.1rem 108rem rgba(0, 0, 0, 0.144);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 2rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+    color: rgba(0, 0, 0, 0.363);
+}
+button{
+    border-radius: 2rem;
+    width: 10rem;
+    height: 4rem;
+    background-color: rgba(0, 255, 255, 0.199);
+    border: none;
+    margin-top:9rem;
+    margin: 4rem;
+}
+button:hover{
+    background-color: rgba(17, 158, 158, 0.692);
 }
